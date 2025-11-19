@@ -1,9 +1,9 @@
-package TestCases;
+package testCases;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import TestBase.BaseClass;
+import testBase.BaseClass;
 import pageObjects.ActivitiesFactory;
 import pageObjects.HomeFactory;
 
@@ -26,7 +26,7 @@ public class TC001_SportsActivities extends BaseClass {
 	        String gameName = activities.getCheapestGame();
 	        String gameTime = activities.getCheapestGameTime();
 
-	        System.out.println("Cheapest Activity: " + gameName);
+	        System.out.println("Cheapest Activity This Weekend: " + gameName);
 	        System.out.println("Date/Time: " + gameTime);
 	        Assert.assertTrue(gameName != null && !gameName.isEmpty(), "Game name should be displayed");
 	    }

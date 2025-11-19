@@ -1,9 +1,9 @@
-package TestCases;
+package testCases;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import TestBase.BaseClass;
+import testBase.BaseClass;
 import pageObjects.HomeFactory;
 import pageObjects.SignInFactory;
 
@@ -23,7 +23,7 @@ public class TC003_InvalidSignIn {
 	        signIn.clickContinue();
 	        
 	        String errorMsg = signIn.getErrorText();
-	        System.out.println("Error Message: " + errorMsg);
+	        System.out.println("Error Signin Message: " + errorMsg);
 	        
 	        Assert.assertTrue(errorMsg.toLowerCase().contains("valid"), "Error message should indicate invalid input");
 	    }

@@ -1,11 +1,11 @@
-package TestCases;
+package testCases;
 
 import java.util.List;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import TestBase.BaseClass;
+import testBase.BaseClass;
 import pageObjects.HomeFactory;
 import pageObjects.MoviesFactory;
 
@@ -23,7 +23,7 @@ public class TC002_MovieLanguages extends BaseClass {
 	        movies.clickLanguageButton();
 
 	        List<String> languages = movies.getLanguageList();
-	        System.out.println("Available Languages: " + languages);
+	        System.out.println("Available Languages for Movies: " + languages);
 	        Assert.assertTrue(languages.size() > 0, "Languages list should not be empty");
 	    }
 	}
