@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestCases.TC001_SportsActivities">
+        <methods>
+          <include name="displayCheapestActivity"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.TC001_SportsActivities -->
+      <class name="TestCases.TC003_InvalidSignIn$InvalidSignInTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="invalidSignIn"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.TC003_InvalidSignIn$InvalidSignInTest -->
+      <class name="TestCases.TC002_MovieLanguages">
+        <methods>
+          <include name="setUp"/>
+          <include name="displayMovieLanguages"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.TC002_MovieLanguages -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

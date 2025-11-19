@@ -28,7 +28,7 @@ public class MoviesFactory extends BaseFactory {
 	List<WebElement> languageList;
 	
 	public void clickFiltersButton() {
-		wait.until(ExpectedConditions.visibilityOf(filtersButton));
+		wait.until(ExpectedConditions.visibilityOf(filtersButton)).click();
 	}
 	
 	public void clickLanguageButton() {
