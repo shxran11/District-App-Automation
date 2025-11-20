@@ -18,7 +18,7 @@ public class ActivitiesFactory extends BaseFactory {
 	
 	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 	
-	@FindBy(xpath="//img[@alt='Game Zones Activity V2 [Taxonomy]']")
+	@FindBy(xpath="//a[contains(@href, 'game-zones-')]")
 	WebElement gamesZone;
 	
 	@FindBy(xpath="//button/span[text()='This Weekend']")
@@ -33,6 +33,9 @@ public class ActivitiesFactory extends BaseFactory {
 	@FindBy(xpath="//button/span[text()='Apply Filters']")
 	WebElement applyFiltersButton;
 	
+	@FindBy(xpath="//span[text()='Explore Activities']")
+	WebElement exploreActivities;
+	
 	@FindBy(xpath="//h5[contains(@class, 'dds-tracking-tight dds-text-lg dds-font-semibold dds-o')]")
 	List<WebElement> gamesList;
 	
@@ -41,8 +44,9 @@ public class ActivitiesFactory extends BaseFactory {
 	
 	public void clickGamesZone() {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("arguments[0].scrollIntoView({block: 'center'});", gamesZone); 
-		wait.until(ExpectedConditions.elementToBeClickable(gamesZone)).click();
+		js.executeScript("arguments[0].scrollIntoView();", exploreActivities); 
+		wait.until(ExpectedConditions.elementToBeClickable(gamesZone));
+		js.executeScript("arguments[0].click();", gamesZone);
 	}
 	
 	public void clickDayFilter() {
