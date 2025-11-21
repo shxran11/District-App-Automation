@@ -4,9 +4,9 @@
   <test name="Test">
     <classes>
     
-      <class name="testCases.TC001_SportsActivities"/>
-      <class name="testCases.TC002_MovieLanguages"/>
-      <class name="testCases.TC003_InvalidSignIn"/>
+      <class name="TestCases.TC001_SportsActivities"/>
+      <class name="TestCases.TC002_MovieLanguages"/>
+      <class name="TestCases.TC003_InvalidSignIn"/>
      
     </classes>
   </test> <!-- Test -->
