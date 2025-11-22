@@ -1,53 +1,139 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-21T23:36:44 IST" name="Suite" finished-at="2025-11-21T23:37:23 IST" duration-ms="38909">
+  <suite started-at="2025-11-22T11:58:13 IST" name="Suite" finished-at="2025-11-22T11:58:55 IST" duration-ms="41791">
     <groups>
     </groups>
-    <test started-at="2025-11-21T23:36:44 IST" name="Test" finished-at="2025-11-21T23:37:23 IST" duration-ms="38909">
+    <test started-at="2025-11-22T11:58:13 IST" name="EdgeTest" finished-at="2025-11-22T11:58:55 IST" duration-ms="41480">
       <class name="TestCases.TC001_SportsActivities">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.TC001_SportsActivities@6771beb3]" started-at="2025-11-21T23:36:44 IST" name="setUp" finished-at="2025-11-21T23:36:55 IST" duration-ms="10945" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.TC001_SportsActivities@8c3b9d]" started-at="2025-11-22T11:58:13 IST" name="setUp" finished-at="2025-11-22T11:58:21 IST" duration-ms="7462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="displayCheapestActivity()[pri:1, instance:TestCases.TC001_SportsActivities@6771beb3]" started-at="2025-11-21T23:36:55 IST" name="displayCheapestActivity" finished-at="2025-11-21T23:37:01 IST" duration-ms="6239" status="PASS">
+        <test-method signature="displayCheapestActivity()[pri:1, instance:TestCases.TC001_SportsActivities@8c3b9d]" started-at="2025-11-22T11:58:21 IST" name="displayCheapestActivity" finished-at="2025-11-22T11:58:28 IST" duration-ms="7381" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- displayCheapestActivity -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC001_SportsActivities@6771beb3]" started-at="2025-11-21T23:37:01 IST" name="tearDown" finished-at="2025-11-21T23:37:04 IST" duration-ms="2264" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC001_SportsActivities@8c3b9d]" started-at="2025-11-22T11:58:28 IST" name="tearDown" finished-at="2025-11-22T11:58:32 IST" duration-ms="3497" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- TestCases.TC001_SportsActivities -->
       <class name="TestCases.TC002_MovieLanguages">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.TC002_MovieLanguages@5bda8e08]" started-at="2025-11-21T23:37:04 IST" name="setUp" finished-at="2025-11-21T23:37:09 IST" duration-ms="5332" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.TC002_MovieLanguages@4c39bec8]" started-at="2025-11-22T11:58:32 IST" name="setUp" finished-at="2025-11-22T11:58:37 IST" duration-ms="5346" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="displayMovieLanguages()[pri:2, instance:TestCases.TC002_MovieLanguages@5bda8e08]" started-at="2025-11-21T23:37:09 IST" name="displayMovieLanguages" finished-at="2025-11-21T23:37:12 IST" duration-ms="2807" status="PASS">
+        <test-method signature="displayMovieLanguages()[pri:2, instance:TestCases.TC002_MovieLanguages@4c39bec8]" started-at="2025-11-22T11:58:37 IST" name="displayMovieLanguages" finished-at="2025-11-22T11:58:42 IST" duration-ms="4492" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- displayMovieLanguages -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC002_MovieLanguages@5bda8e08]" started-at="2025-11-21T23:37:12 IST" name="tearDown" finished-at="2025-11-21T23:37:14 IST" duration-ms="2213" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC002_MovieLanguages@4c39bec8]" started-at="2025-11-22T11:58:42 IST" name="tearDown" finished-at="2025-11-22T11:58:44 IST" duration-ms="2460" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- TestCases.TC002_MovieLanguages -->
       <class name="TestCases.TC003_InvalidSignIn$InvalidSignInTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.TC003_InvalidSignIn$InvalidSignInTest@1e800aaa]" started-at="2025-11-21T23:37:14 IST" name="setUp" finished-at="2025-11-21T23:37:19 IST" duration-ms="4807" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.TC003_InvalidSignIn$InvalidSignInTest@f79e]" started-at="2025-11-22T11:58:44 IST" name="setUp" finished-at="2025-11-22T11:58:49 IST" duration-ms="5317" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="invalidSignIn()[pri:3, instance:TestCases.TC003_InvalidSignIn$InvalidSignInTest@1e800aaa]" started-at="2025-11-21T23:37:19 IST" name="invalidSignIn" finished-at="2025-11-21T23:37:21 IST" duration-ms="2055" status="PASS">
+        <test-method signature="invalidSignIn()[pri:3, instance:TestCases.TC003_InvalidSignIn$InvalidSignInTest@f79e]" started-at="2025-11-22T11:58:49 IST" name="invalidSignIn" finished-at="2025-11-22T11:58:52 IST" duration-ms="2789" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidSignIn -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC003_InvalidSignIn$InvalidSignInTest@1e800aaa]" started-at="2025-11-21T23:37:21 IST" name="tearDown" finished-at="2025-11-21T23:37:23 IST" duration-ms="2158" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC003_InvalidSignIn$InvalidSignInTest@f79e]" started-at="2025-11-22T11:58:52 IST" name="tearDown" finished-at="2025-11-22T11:58:55 IST" duration-ms="2642" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- TestCases.TC003_InvalidSignIn$InvalidSignInTest -->
-    </test> <!-- Test -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2025-11-22T11:58:13 IST" name="ChromeTest" finished-at="2025-11-22T11:58:55 IST" duration-ms="41791">
+      <class name="TestCases.TC001_SportsActivities">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.TC001_SportsActivities@3b69e7d1]" started-at="2025-11-22T11:58:13 IST" name="setUp" finished-at="2025-11-22T11:58:21 IST" duration-ms="7870" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="displayCheapestActivity()[pri:1, instance:TestCases.TC001_SportsActivities@3b69e7d1]" started-at="2025-11-22T11:58:21 IST" name="displayCheapestActivity" finished-at="2025-11-22T11:58:29 IST" duration-ms="7473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayCheapestActivity -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC001_SportsActivities@3b69e7d1]" started-at="2025-11-22T11:58:29 IST" name="tearDown" finished-at="2025-11-22T11:58:32 IST" duration-ms="2954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC001_SportsActivities -->
+      <class name="TestCases.TC002_MovieLanguages">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.TC002_MovieLanguages@2a5c8d3f]" started-at="2025-11-22T11:58:32 IST" name="setUp" finished-at="2025-11-22T11:58:37 IST" duration-ms="5770" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="displayMovieLanguages()[pri:2, instance:TestCases.TC002_MovieLanguages@2a5c8d3f]" started-at="2025-11-22T11:58:37 IST" name="displayMovieLanguages" finished-at="2025-11-22T11:58:42 IST" duration-ms="4338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayMovieLanguages -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC002_MovieLanguages@2a5c8d3f]" started-at="2025-11-22T11:58:42 IST" name="tearDown" finished-at="2025-11-22T11:58:44 IST" duration-ms="2326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC002_MovieLanguages -->
+      <class name="TestCases.TC003_InvalidSignIn$InvalidSignInTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.TC003_InvalidSignIn$InvalidSignInTest@752325ad]" started-at="2025-11-22T11:58:44 IST" name="setUp" finished-at="2025-11-22T11:58:50 IST" duration-ms="6036" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidSignIn()[pri:3, instance:TestCases.TC003_InvalidSignIn$InvalidSignInTest@752325ad]" started-at="2025-11-22T11:58:50 IST" name="invalidSignIn" finished-at="2025-11-22T11:58:53 IST" duration-ms="2718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidSignIn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC003_InvalidSignIn$InvalidSignInTest@752325ad]" started-at="2025-11-22T11:58:53 IST" name="tearDown" finished-at="2025-11-22T11:58:55 IST" duration-ms="2216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC003_InvalidSignIn$InvalidSignInTest -->
+    </test> <!-- ChromeTest -->
   </suite> <!-- Suite -->
 </testng-results>
