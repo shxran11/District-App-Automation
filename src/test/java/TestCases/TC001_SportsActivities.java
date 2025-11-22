@@ -13,6 +13,8 @@ public class TC001_SportsActivities extends BaseClass {
 	    @Test(priority=1)
 	    public void displayCheapestActivity() {
 	    	logger.info("*****Starting TC001_SportsActivities*****");
+	    	String gameName="";
+	    	String gameTime="";
 	    	
 	    	try 
 	    	{
@@ -30,13 +32,10 @@ public class TC001_SportsActivities extends BaseClass {
 		        activities.clickSortOption();
 		        activities.clickApplyFilters();
 		        logger.info("Price is selected from Low to High range");
-		        
+		        	 
+		        gameName = activities.getCheapestGame();
+		        gameTime = activities.getCheapestGameTime();
 	 
-		        String gameName = activities.getCheapestGame();
-		        String gameTime = activities.getCheapestGameTime();
-	 
-		        System.out.println("Cheapest Activity This Weekend: " + gameName);
-		        System.out.println("Date/Time: " + gameTime);
 		        Assert.assertTrue(gameName != null && !gameName.isEmpty(), "Game name should be displayed");
 		        logger.info("Test passed");
 	    	}
@@ -49,6 +48,8 @@ public class TC001_SportsActivities extends BaseClass {
 	    	
 	    	finally {
 	    		logger.info("-----Finished TC001_SportsActivities-----");
+	    		System.out.println("Cheapest Activity This Weekend: " + gameName);
+		        System.out.println("Date/Time: " + gameTime);
 	    	}
 	    }
 	}

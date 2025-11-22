@@ -1,10 +1,11 @@
 package TestCases;
  
+import java.util.ArrayList;
 import java.util.List;
- 
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
- 
+
 import TestBase.BaseClass;
 import pageObjects.HomeFactory;
 import pageObjects.MoviesFactory;
@@ -16,7 +17,7 @@ public class TC002_MovieLanguages extends BaseClass {
 	    @Test(priority=2)
 	    public void displayMovieLanguages() {
 	    	logger.info("*****Starting TC002_MovieLanguages*****");
-	    	
+	    	List<String> languages = new ArrayList<>();
 	    	try 
 	    	{
 		        HomeFactory home = new HomeFactory(driver);
@@ -29,8 +30,8 @@ public class TC002_MovieLanguages extends BaseClass {
 		        movies.clickLanguageButton();
 		        logger.info("Selected language");
 	 
-		        List<String> languages = movies.getLanguageList();
-		        System.out.println("Available Languages for Movies: " + languages);
+		        languages = movies.getLanguageList();
+		        
 		        Assert.assertTrue(languages.size() > 0, "Languages list should not be empty");
 		        logger.info("Test passed");
 	    	}
@@ -43,6 +44,7 @@ public class TC002_MovieLanguages extends BaseClass {
 	    	
 	    	finally {
 	    		logger.info("-----Finished TC002_MovieLanguages-----");
+	    		System.out.println("Available Languages for Movies: " + languages);
 	    	}
 	    }
 	}

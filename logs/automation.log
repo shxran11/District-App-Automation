@@ -1,20 +1,217 @@
-2025-11-21 23:36:55 INFO  TC001_SportsActivities:15 - *****Starting TC001_SportsActivities*****
-2025-11-21 23:36:56 INFO  TC001_SportsActivities:23 - Clicked on Activities button
-2025-11-21 23:37:01 INFO  TC001_SportsActivities:25 - Clicked on Games Zone
-2025-11-21 23:37:01 INFO  TC001_SportsActivities:27 - Clicked on day filter
-2025-11-21 23:37:01 INFO  TC001_SportsActivities:29 - Filter is selected
-2025-11-21 23:37:01 INFO  TC001_SportsActivities:32 - Price is selected from Low to High range
-2025-11-21 23:37:01 INFO  TC001_SportsActivities:41 - Test passed
-2025-11-21 23:37:01 INFO  TC001_SportsActivities:51 - -----Finished TC001_SportsActivities-----
-2025-11-21 23:37:09 INFO  TC002_MovieLanguages:18 - *****Starting TC002_MovieLanguages*****
-2025-11-21 23:37:10 INFO  TC002_MovieLanguages:26 - Clicked on Movies button
-2025-11-21 23:37:11 INFO  TC002_MovieLanguages:28 - Selected filters
-2025-11-21 23:37:12 INFO  TC002_MovieLanguages:30 - Selected language
-2025-11-21 23:37:12 INFO  TC002_MovieLanguages:35 - Test passed
-2025-11-21 23:37:12 INFO  TC002_MovieLanguages:45 - -----Finished TC002_MovieLanguages-----
-2025-11-21 23:37:19 INFO  InvalidSignInTest:18 - *****Starting TC003_InvalidSignIn*****
-2025-11-21 23:37:20 INFO  InvalidSignInTest:24 - Sign in icon is clicked
-2025-11-21 23:37:21 INFO  InvalidSignInTest:26 - Invalid mobile number is entered
-2025-11-21 23:37:21 INFO  InvalidSignInTest:28 - Continue button is clicked to get the error message
-2025-11-21 23:37:21 INFO  InvalidSignInTest:35 - Test passed
-2025-11-21 23:37:21 INFO  InvalidSignInTest:43 - -----Finished TC003_InvalidSignIn-----
+2025-11-22 00:23:52 INFO  TC001_SportsActivities:15 - *****Starting TC001_SportsActivities*****
+2025-11-22 00:23:54 INFO  TC001_SportsActivities:23 - Clicked on Activities button
+2025-11-22 00:23:56 INFO  TC001_SportsActivities:25 - Clicked on Games Zone
+2025-11-22 00:24:16 ERROR TC001_SportsActivities:46 - Test failed: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button/span[text()='This Weekend']' (tried for 10 second(s) with 500 milliseconds interval)
+2025-11-22 00:24:16 INFO  TC001_SportsActivities:51 - -----Finished TC001_SportsActivities-----
+2025-11-22 00:24:24 INFO  TC002_MovieLanguages:18 - *****Starting TC002_MovieLanguages*****
+2025-11-22 00:24:25 INFO  TC002_MovieLanguages:26 - Clicked on Movies button
+2025-11-22 00:24:27 INFO  TC002_MovieLanguages:28 - Selected filters
+2025-11-22 00:24:27 INFO  TC002_MovieLanguages:30 - Selected language
+2025-11-22 00:24:28 INFO  TC002_MovieLanguages:35 - Test passed
+2025-11-22 00:24:28 INFO  TC002_MovieLanguages:45 - -----Finished TC002_MovieLanguages-----
+2025-11-22 00:24:35 INFO  InvalidSignInTest:18 - *****Starting TC003_InvalidSignIn*****
+2025-11-22 00:24:36 INFO  InvalidSignInTest:24 - Sign in icon is clicked
+2025-11-22 00:24:37 INFO  InvalidSignInTest:26 - Invalid mobile number is entered
+2025-11-22 00:24:37 INFO  InvalidSignInTest:28 - Continue button is clicked to get the error message
+2025-11-22 00:24:37 INFO  InvalidSignInTest:35 - Test passed
+2025-11-22 00:24:37 INFO  InvalidSignInTest:43 - -----Finished TC003_InvalidSignIn-----
+2025-11-22 00:24:55 INFO  TC001_SportsActivities:15 - *****Starting TC001_SportsActivities*****
+2025-11-22 00:24:57 INFO  TC001_SportsActivities:23 - Clicked on Activities button
+2025-11-22 00:25:00 INFO  TC001_SportsActivities:25 - Clicked on Games Zone
+2025-11-22 00:25:20 ERROR TC001_SportsActivities:46 - Test failed: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button/span[text()='This Weekend']' (tried for 10 second(s) with 500 milliseconds interval)
+2025-11-22 00:25:20 INFO  TC001_SportsActivities:51 - -----Finished TC001_SportsActivities-----
+2025-11-22 00:25:28 INFO  TC002_MovieLanguages:18 - *****Starting TC002_MovieLanguages*****
+2025-11-22 00:25:29 INFO  TC002_MovieLanguages:26 - Clicked on Movies button
+2025-11-22 00:25:30 INFO  TC002_MovieLanguages:28 - Selected filters
+2025-11-22 00:25:31 INFO  TC002_MovieLanguages:30 - Selected language
+2025-11-22 00:25:31 INFO  TC002_MovieLanguages:35 - Test passed
+2025-11-22 00:25:31 INFO  TC002_MovieLanguages:45 - -----Finished TC002_MovieLanguages-----
+2025-11-22 00:25:38 INFO  InvalidSignInTest:18 - *****Starting TC003_InvalidSignIn*****
+2025-11-22 00:25:39 INFO  InvalidSignInTest:24 - Sign in icon is clicked
+2025-11-22 00:25:40 INFO  InvalidSignInTest:26 - Invalid mobile number is entered
+2025-11-22 00:25:40 INFO  InvalidSignInTest:28 - Continue button is clicked to get the error message
+2025-11-22 00:25:40 INFO  InvalidSignInTest:35 - Test passed
+2025-11-22 00:25:40 INFO  InvalidSignInTest:43 - -----Finished TC003_InvalidSignIn-----
+2025-11-22 11:20:16 INFO  TC001_SportsActivities:15 - *****Starting TC001_SportsActivities*****
+2025-11-22 11:20:18 INFO  TC001_SportsActivities:23 - Clicked on Activities button
+2025-11-22 11:20:22 INFO  TC001_SportsActivities:25 - Clicked on Games Zone
+2025-11-22 11:20:43 ERROR TC001_SportsActivities:46 - Test failed: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button/span[text()='This Weekend']' (tried for 10 second(s) with 500 milliseconds interval)
+2025-11-22 11:20:43 INFO  TC001_SportsActivities:51 - -----Finished TC001_SportsActivities-----
+2025-11-22 11:22:26 INFO  TC001_SportsActivities:15 - *****Starting TC001_SportsActivities*****
+2025-11-22 11:22:28 INFO  TC001_SportsActivities:23 - Clicked on Activities button
+2025-11-22 11:22:31 INFO  TC001_SportsActivities:25 - Clicked on Games Zone
+2025-11-22 11:22:31 INFO  TC001_SportsActivities:29 - Filter is selected
+2025-11-22 11:22:32 INFO  TC001_SportsActivities:32 - Price is selected from Low to High range
+2025-11-22 11:22:32 INFO  TC001_SportsActivities:41 - Test passed
+2025-11-22 11:22:32 INFO  TC001_SportsActivities:51 - -----Finished TC001_SportsActivities-----
+2025-11-22 11:24:41 INFO  TC001_SportsActivities:15 - *****Starting TC001_SportsActivities*****
+2025-11-22 11:24:42 INFO  TC001_SportsActivities:23 - Clicked on Activities button
+2025-11-22 11:24:44 INFO  TC001_SportsActivities:25 - Clicked on Games Zone
+2025-11-22 11:24:45 INFO  TC001_SportsActivities:29 - Filter is selected
+2025-11-22 11:24:45 INFO  TC001_SportsActivities:32 - Price is selected from Low to High range
+2025-11-22 11:24:45 INFO  TC001_SportsActivities:41 - Test passed
+2025-11-22 11:24:45 INFO  TC001_SportsActivities:51 - -----Finished TC001_SportsActivities-----
+2025-11-22 11:24:51 INFO  TC002_MovieLanguages:18 - *****Starting TC002_MovieLanguages*****
+2025-11-22 11:24:52 INFO  TC002_MovieLanguages:26 - Clicked on Movies button
+2025-11-22 11:24:53 INFO  TC002_MovieLanguages:28 - Selected filters
+2025-11-22 11:24:54 INFO  TC002_MovieLanguages:30 - Selected language
+2025-11-22 11:24:54 INFO  TC002_MovieLanguages:35 - Test passed
+2025-11-22 11:24:54 INFO  TC002_MovieLanguages:45 - -----Finished TC002_MovieLanguages-----
+2025-11-22 11:25:00 INFO  InvalidSignInTest:18 - *****Starting TC003_InvalidSignIn*****
+2025-11-22 11:25:01 INFO  InvalidSignInTest:24 - Sign in icon is clicked
+2025-11-22 11:25:02 INFO  InvalidSignInTest:26 - Invalid mobile number is entered
+2025-11-22 11:25:02 INFO  InvalidSignInTest:28 - Continue button is clicked to get the error message
+2025-11-22 11:25:02 INFO  InvalidSignInTest:35 - Test passed
+2025-11-22 11:25:02 INFO  InvalidSignInTest:43 - -----Finished TC003_InvalidSignIn-----
+2025-11-22 11:26:48 INFO  TC001_SportsActivities:15 - *****Starting TC001_SportsActivities*****
+2025-11-22 11:26:49 INFO  TC001_SportsActivities:25 - Clicked on Activities button
+2025-11-22 11:26:51 INFO  TC001_SportsActivities:27 - Clicked on Games Zone
+2025-11-22 11:26:51 INFO  TC001_SportsActivities:31 - Filter is selected
+2025-11-22 11:26:51 INFO  TC001_SportsActivities:34 - Price is selected from Low to High range
+2025-11-22 11:26:52 INFO  TC001_SportsActivities:40 - Test passed
+2025-11-22 11:26:52 INFO  TC001_SportsActivities:50 - -----Finished TC001_SportsActivities-----
+2025-11-22 11:26:58 INFO  TC002_MovieLanguages:18 - *****Starting TC002_MovieLanguages*****
+2025-11-22 11:27:00 INFO  TC002_MovieLanguages:26 - Clicked on Movies button
+2025-11-22 11:27:01 INFO  TC002_MovieLanguages:28 - Selected filters
+2025-11-22 11:27:01 INFO  TC002_MovieLanguages:30 - Selected language
+2025-11-22 11:27:01 INFO  TC002_MovieLanguages:35 - Test passed
+2025-11-22 11:27:01 INFO  TC002_MovieLanguages:45 - -----Finished TC002_MovieLanguages-----
+2025-11-22 11:27:08 INFO  InvalidSignInTest:18 - *****Starting TC003_InvalidSignIn*****
+2025-11-22 11:27:09 INFO  InvalidSignInTest:24 - Sign in icon is clicked
+2025-11-22 11:27:09 INFO  InvalidSignInTest:26 - Invalid mobile number is entered
+2025-11-22 11:27:09 INFO  InvalidSignInTest:28 - Continue button is clicked to get the error message
+2025-11-22 11:27:10 INFO  InvalidSignInTest:35 - Test passed
+2025-11-22 11:27:10 INFO  InvalidSignInTest:43 - -----Finished TC003_InvalidSignIn-----
+2025-11-22 11:30:44 INFO  TC001_SportsActivities:15 - *****Starting TC001_SportsActivities*****
+2025-11-22 11:30:46 INFO  TC001_SportsActivities:25 - Clicked on Activities button
+2025-11-22 11:30:49 INFO  TC001_SportsActivities:27 - Clicked on Games Zone
+2025-11-22 11:30:49 INFO  TC001_SportsActivities:31 - Filter is selected
+2025-11-22 11:30:49 INFO  TC001_SportsActivities:34 - Price is selected from Low to High range
+2025-11-22 11:30:49 INFO  TC001_SportsActivities:40 - Test passed
+2025-11-22 11:30:49 INFO  TC001_SportsActivities:50 - -----Finished TC001_SportsActivities-----
+2025-11-22 11:30:56 INFO  TC002_MovieLanguages:19 - *****Starting TC002_MovieLanguages*****
+2025-11-22 11:30:58 INFO  TC002_MovieLanguages:27 - Clicked on Movies button
+2025-11-22 11:30:59 INFO  TC002_MovieLanguages:29 - Selected filters
+2025-11-22 11:30:59 INFO  TC002_MovieLanguages:31 - Selected language
+2025-11-22 11:31:00 INFO  TC002_MovieLanguages:36 - Test passed
+2025-11-22 11:31:00 INFO  TC002_MovieLanguages:46 - -----Finished TC002_MovieLanguages-----
+2025-11-22 11:31:07 INFO  InvalidSignInTest:18 - *****Starting TC003_InvalidSignIn*****
+2025-11-22 11:31:09 INFO  InvalidSignInTest:27 - Sign in icon is clicked
+2025-11-22 11:31:09 INFO  InvalidSignInTest:29 - Invalid mobile number is entered
+2025-11-22 11:31:09 INFO  InvalidSignInTest:31 - Continue button is clicked to get the error message
+2025-11-22 11:31:10 INFO  InvalidSignInTest:37 - Test passed
+2025-11-22 11:31:10 INFO  InvalidSignInTest:47 - -----Finished TC003_InvalidSignIn-----
+2025-11-22 11:45:51 INFO  TC001_SportsActivities:15 - *****Starting TC001_SportsActivities*****
+2025-11-22 11:45:53 INFO  TC001_SportsActivities:25 - Clicked on Activities button
+2025-11-22 11:45:56 INFO  TC001_SportsActivities:27 - Clicked on Games Zone
+2025-11-22 11:45:56 INFO  TC001_SportsActivities:31 - Filter is selected
+2025-11-22 11:45:56 INFO  TC001_SportsActivities:34 - Price is selected from Low to High range
+2025-11-22 11:45:56 INFO  TC001_SportsActivities:40 - Test passed
+2025-11-22 11:45:56 INFO  TC001_SportsActivities:50 - -----Finished TC001_SportsActivities-----
+2025-11-22 11:46:03 INFO  TC002_MovieLanguages:19 - *****Starting TC002_MovieLanguages*****
+2025-11-22 11:46:05 INFO  TC002_MovieLanguages:27 - Clicked on Movies button
+2025-11-22 11:46:05 INFO  TC002_MovieLanguages:29 - Selected filters
+2025-11-22 11:46:06 INFO  TC002_MovieLanguages:31 - Selected language
+2025-11-22 11:46:06 INFO  TC002_MovieLanguages:36 - Test passed
+2025-11-22 11:46:06 INFO  TC002_MovieLanguages:46 - -----Finished TC002_MovieLanguages-----
+2025-11-22 11:46:13 INFO  InvalidSignInTest:18 - *****Starting TC003_InvalidSignIn*****
+2025-11-22 11:46:14 INFO  InvalidSignInTest:27 - Sign in icon is clicked
+2025-11-22 11:46:14 INFO  InvalidSignInTest:29 - Invalid mobile number is entered
+2025-11-22 11:46:14 INFO  InvalidSignInTest:31 - Continue button is clicked to get the error message
+2025-11-22 11:46:14 INFO  InvalidSignInTest:37 - Test passed
+2025-11-22 11:46:14 INFO  InvalidSignInTest:47 - -----Finished TC003_InvalidSignIn-----
+2025-11-22 11:48:16 INFO  TC001_SportsActivities:15 - *****Starting TC001_SportsActivities*****
+2025-11-22 11:48:17 INFO  TC001_SportsActivities:25 - Clicked on Activities button
+2025-11-22 11:48:20 INFO  TC001_SportsActivities:27 - Clicked on Games Zone
+2025-11-22 11:48:20 INFO  TC001_SportsActivities:31 - Filter is selected
+2025-11-22 11:48:20 INFO  TC001_SportsActivities:34 - Price is selected from Low to High range
+2025-11-22 11:48:20 INFO  TC001_SportsActivities:40 - Test passed
+2025-11-22 11:48:20 INFO  TC001_SportsActivities:50 - -----Finished TC001_SportsActivities-----
+2025-11-22 11:48:27 INFO  TC002_MovieLanguages:19 - *****Starting TC002_MovieLanguages*****
+2025-11-22 11:48:29 INFO  TC002_MovieLanguages:27 - Clicked on Movies button
+2025-11-22 11:48:30 INFO  TC002_MovieLanguages:29 - Selected filters
+2025-11-22 11:48:30 INFO  TC002_MovieLanguages:31 - Selected language
+2025-11-22 11:48:31 INFO  TC002_MovieLanguages:36 - Test passed
+2025-11-22 11:48:31 INFO  TC002_MovieLanguages:46 - -----Finished TC002_MovieLanguages-----
+2025-11-22 11:48:36 INFO  InvalidSignInTest:18 - *****Starting TC003_InvalidSignIn*****
+2025-11-22 11:48:38 INFO  InvalidSignInTest:27 - Sign in icon is clicked
+2025-11-22 11:48:38 INFO  InvalidSignInTest:29 - Invalid mobile number is entered
+2025-11-22 11:48:38 INFO  InvalidSignInTest:31 - Continue button is clicked to get the error message
+2025-11-22 11:48:38 INFO  InvalidSignInTest:37 - Test passed
+2025-11-22 11:48:38 INFO  InvalidSignInTest:47 - -----Finished TC003_InvalidSignIn-----
+2025-11-22 11:56:38 INFO  TC001_SportsActivities:15 - *****Starting TC001_SportsActivities*****
+2025-11-22 11:56:39 INFO  TC001_SportsActivities:15 - *****Starting TC001_SportsActivities*****
+2025-11-22 11:56:41 INFO  TC001_SportsActivities:25 - Clicked on Activities button
+2025-11-22 11:56:41 INFO  TC001_SportsActivities:25 - Clicked on Activities button
+2025-11-22 11:56:45 INFO  TC001_SportsActivities:27 - Clicked on Games Zone
+2025-11-22 11:56:45 INFO  TC001_SportsActivities:31 - Filter is selected
+2025-11-22 11:56:45 INFO  TC001_SportsActivities:27 - Clicked on Games Zone
+2025-11-22 11:56:45 INFO  TC001_SportsActivities:31 - Filter is selected
+2025-11-22 11:56:45 INFO  TC001_SportsActivities:34 - Price is selected from Low to High range
+2025-11-22 11:56:45 INFO  TC001_SportsActivities:40 - Test passed
+2025-11-22 11:56:45 INFO  TC001_SportsActivities:50 - -----Finished TC001_SportsActivities-----
+2025-11-22 11:56:46 INFO  TC001_SportsActivities:34 - Price is selected from Low to High range
+2025-11-22 11:56:46 INFO  TC001_SportsActivities:40 - Test passed
+2025-11-22 11:56:46 INFO  TC001_SportsActivities:50 - -----Finished TC001_SportsActivities-----
+2025-11-22 11:56:54 INFO  TC002_MovieLanguages:19 - *****Starting TC002_MovieLanguages*****
+2025-11-22 11:56:55 INFO  TC002_MovieLanguages:19 - *****Starting TC002_MovieLanguages*****
+2025-11-22 11:56:56 INFO  TC002_MovieLanguages:27 - Clicked on Movies button
+2025-11-22 11:56:56 INFO  TC002_MovieLanguages:27 - Clicked on Movies button
+2025-11-22 11:56:57 INFO  TC002_MovieLanguages:29 - Selected filters
+2025-11-22 11:56:58 INFO  TC002_MovieLanguages:29 - Selected filters
+2025-11-22 11:56:58 INFO  TC002_MovieLanguages:31 - Selected language
+2025-11-22 11:56:58 INFO  TC002_MovieLanguages:36 - Test passed
+2025-11-22 11:56:58 INFO  TC002_MovieLanguages:46 - -----Finished TC002_MovieLanguages-----
+2025-11-22 11:56:58 INFO  TC002_MovieLanguages:31 - Selected language
+2025-11-22 11:56:59 INFO  TC002_MovieLanguages:36 - Test passed
+2025-11-22 11:56:59 INFO  TC002_MovieLanguages:46 - -----Finished TC002_MovieLanguages-----
+2025-11-22 11:57:07 INFO  InvalidSignInTest:18 - *****Starting TC003_InvalidSignIn*****
+2025-11-22 11:57:09 INFO  InvalidSignInTest:27 - Sign in icon is clicked
+2025-11-22 11:57:09 INFO  InvalidSignInTest:29 - Invalid mobile number is entered
+2025-11-22 11:57:09 INFO  InvalidSignInTest:31 - Continue button is clicked to get the error message
+2025-11-22 11:57:10 INFO  InvalidSignInTest:37 - Test passed
+2025-11-22 11:57:10 INFO  InvalidSignInTest:47 - -----Finished TC003_InvalidSignIn-----
+2025-11-22 11:57:10 INFO  InvalidSignInTest:18 - *****Starting TC003_InvalidSignIn*****
+2025-11-22 11:57:10 INFO  InvalidSignInTest:27 - Sign in icon is clicked
+2025-11-22 11:57:10 INFO  InvalidSignInTest:29 - Invalid mobile number is entered
+2025-11-22 11:57:11 INFO  InvalidSignInTest:31 - Continue button is clicked to get the error message
+2025-11-22 11:57:11 INFO  InvalidSignInTest:37 - Test passed
+2025-11-22 11:57:11 INFO  InvalidSignInTest:47 - -----Finished TC003_InvalidSignIn-----
+2025-11-22 11:58:21 INFO  TC001_SportsActivities:15 - *****Starting TC001_SportsActivities*****
+2025-11-22 11:58:21 INFO  TC001_SportsActivities:15 - *****Starting TC001_SportsActivities*****
+2025-11-22 11:58:23 INFO  TC001_SportsActivities:25 - Clicked on Activities button
+2025-11-22 11:58:24 INFO  TC001_SportsActivities:25 - Clicked on Activities button
+2025-11-22 11:58:27 INFO  TC001_SportsActivities:27 - Clicked on Games Zone
+2025-11-22 11:58:27 INFO  TC001_SportsActivities:31 - Filter is selected
+2025-11-22 11:58:27 INFO  TC001_SportsActivities:27 - Clicked on Games Zone
+2025-11-22 11:58:28 INFO  TC001_SportsActivities:31 - Filter is selected
+2025-11-22 11:58:28 INFO  TC001_SportsActivities:34 - Price is selected from Low to High range
+2025-11-22 11:58:28 INFO  TC001_SportsActivities:40 - Test passed
+2025-11-22 11:58:28 INFO  TC001_SportsActivities:50 - -----Finished TC001_SportsActivities-----
+2025-11-22 11:58:28 INFO  TC001_SportsActivities:34 - Price is selected from Low to High range
+2025-11-22 11:58:29 INFO  TC001_SportsActivities:40 - Test passed
+2025-11-22 11:58:29 INFO  TC001_SportsActivities:50 - -----Finished TC001_SportsActivities-----
+2025-11-22 11:58:37 INFO  TC002_MovieLanguages:19 - *****Starting TC002_MovieLanguages*****
+2025-11-22 11:58:37 INFO  TC002_MovieLanguages:19 - *****Starting TC002_MovieLanguages*****
+2025-11-22 11:58:39 INFO  TC002_MovieLanguages:27 - Clicked on Movies button
+2025-11-22 11:58:39 INFO  TC002_MovieLanguages:27 - Clicked on Movies button
+2025-11-22 11:58:40 INFO  TC002_MovieLanguages:29 - Selected filters
+2025-11-22 11:58:41 INFO  TC002_MovieLanguages:29 - Selected filters
+2025-11-22 11:58:41 INFO  TC002_MovieLanguages:31 - Selected language
+2025-11-22 11:58:41 INFO  TC002_MovieLanguages:31 - Selected language
+2025-11-22 11:58:42 INFO  TC002_MovieLanguages:36 - Test passed
+2025-11-22 11:58:42 INFO  TC002_MovieLanguages:46 - -----Finished TC002_MovieLanguages-----
+2025-11-22 11:58:42 INFO  TC002_MovieLanguages:36 - Test passed
+2025-11-22 11:58:42 INFO  TC002_MovieLanguages:46 - -----Finished TC002_MovieLanguages-----
+2025-11-22 11:58:49 INFO  InvalidSignInTest:18 - *****Starting TC003_InvalidSignIn*****
+2025-11-22 11:58:50 INFO  InvalidSignInTest:18 - *****Starting TC003_InvalidSignIn*****
+2025-11-22 11:58:51 INFO  InvalidSignInTest:27 - Sign in icon is clicked
+2025-11-22 11:58:52 INFO  InvalidSignInTest:29 - Invalid mobile number is entered
+2025-11-22 11:58:52 INFO  InvalidSignInTest:31 - Continue button is clicked to get the error message
+2025-11-22 11:58:52 INFO  InvalidSignInTest:27 - Sign in icon is clicked
+2025-11-22 11:58:52 INFO  InvalidSignInTest:37 - Test passed
+2025-11-22 11:58:52 INFO  InvalidSignInTest:47 - -----Finished TC003_InvalidSignIn-----
+2025-11-22 11:58:53 INFO  InvalidSignInTest:29 - Invalid mobile number is entered
+2025-11-22 11:58:53 INFO  InvalidSignInTest:31 - Continue button is clicked to get the error message
+2025-11-22 11:58:53 INFO  InvalidSignInTest:37 - Test passed
+2025-11-22 11:58:53 INFO  InvalidSignInTest:47 - -----Finished TC003_InvalidSignIn-----
